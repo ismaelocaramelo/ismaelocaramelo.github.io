@@ -1,0 +1,59 @@
+---
+layout: post
+title: "Othello"
+date: 2016-12-07
+categories:
+description:
+image: http://i.imgur.com/D2M6vmu.png
+image-sm: http://i.imgur.com/D2M6vmu.png
+image-home: https://images.unsplash.com/photo-1470762920880-a8e058686707?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=7ad04dcd45407f39e32f62424b192b86
+---
+WDI-PROJECT-1
+
+This is my first project from my WDI course at General Assembly
+
+=======
+
+My first project
+
+For my first project I decided to build a Japanese strategy game called Othello or also known as reversi (below link for rules).
+
+The decision to play this game is one of the games I used to play with my family. I've planned what to do each day in order to meet the deadline. The first and second day were focused on the analysis and pseudo-code of the game. The third and fourth days were dedicated exclusively to the code. At the end of the javaScript and HTML part I started to style it using CSS.
+
+##Challenges
+
+One of the problems I had was the logic part, how I could verify if the movements of the players were valid. How to verify if there are possible movements before each player play. These challenges took me a long time but that finally I could do it.
+
+##Wins
+
+-The game is dynamic, it means the board can be extended or decreased.
+
+-The use of objects and functions makes it more readable for other developers.
+
+-Being able to make a strategy game suitable for all audiences.
+
+image ##Future Improvements
+
+-The option that the user can upload a profile image,
+
+-Set ranking the points by which players could see their score.
+
+-Allow them to make teams and to realize mini-championships.
+
+-Give a good experience to the user allowing to change the board and a real-time chat between users.
+
+![alt text](http://i.imgur.com/p2gNCFv.png "Development")
+
+![alt text](http://i.imgur.com/INlzv1N.png "Debbuging errors")
+
+![alt text](http://i.imgur.com/LY4nWVg.png "Adding features")
+
+![alt text](http://i.imgur.com/xPbOGq4.png "The winner is...")
+
+
+Reversi rules: https://en.wikipedia.org/wiki/Reversi_
+
+Game link :
+This application was produced as my second project for the Web Development Immersive course at General Assembly London.
+
+The app can be seen here: <a href="https://stormy-reaches-23451.herokuapp.com/" target="_blank">**Othello**</a>

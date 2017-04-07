@@ -1,26 +1,24 @@
 # Site settings
-email: "delamorinierejh@gmail.com"
+email: "ismaelbacha@hotmail.com"
 baseurl: ""
 paginate: 5
 paginate_path: "/blog/page-:num"
 google_analytics:
 
 # SEO settings
-title: Johnnie de La Morinière
+title: Ismael Bakkali
 description:
 url: ""
-twitter_username: "@delamorinierejh"
 default_img:
 home_img: "https://images.unsplash.com/photo-1472341581053-2af63cb175d4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=8ddab9b3ae5407027aa2da624f71282c"
 
 # Profile settings
-name: Johnnie de La Morinière
+name: Ismael Bakkali
 profile_img: "https://pbs.twimg.com/profile_images/780714859700883456/E1vI9fK6.jpg"
-profile: I'm a London-based Full Stack Developer, with a background in E-Commerce strategy and Corporate Communications.
+profile: I'm a London-based Full Stack Developer, with a background in Telecommunications Engineering and Network Marketing.
 social:
-  twitter: "https://www.twitter.com/delamorinierejh"
-  github: "https://www.github.com/delamorinierejh"
-  linkedin: "https://www.linkedin.com/in/johnnie-de-la-moriniere-ba610b66"
+  github: "https://www.github.com/ismaelocaramelo"
+  linkedin: "https://www.linkedin.com/in/ismaelbakkali/"
 
 # Build settings
 include: ["_categories"]
