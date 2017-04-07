@@ -10,12 +10,13 @@ title: Ismael Bakkali
 description:
 url: ""
 default_img:
-home_img: "https://images.unsplash.com/photo-1472341581053-2af63cb175d4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=8ddab9b3ae5407027aa2da624f71282c"
+home_img: "https://unsplash.com/?photo=x2Tmfd1-SgA"
 
 # Profile settings
 name: Ismael Bakkali
 profile_img: "http://i.imgur.com/GfewA2t.jpg"
-profile: I'm a London-based Full Stack Developer, with a background in Telecommunications Engineering and Network Marketing.
+profile: "I'm a London-based Full Stack Developer, with a background in Telecommunications Engineering and Network Marketing."
+
 social:
   github: "https://www.github.com/ismaelocaramelo"
   linkedin: "https://www.linkedin.com/in/ismaelbakkali/"

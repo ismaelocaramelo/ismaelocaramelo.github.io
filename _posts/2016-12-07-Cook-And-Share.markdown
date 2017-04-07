@@ -12,11 +12,11 @@ image-home: https://images.unsplash.com/photo-1470762920880-a8e058686707?ixlib=r
 **App functionality**
 
 **Scope**
-____________________________
+
 This document serves as functional specifications of the application
 
 **Purpose and objectives**
-____________________________
+
 
 The purpose of the idea is to share food within your company/group. Is a way of socialize with your group/company and share a your best plates and hopefully eating healthy. Is a way also to get clients if
 
