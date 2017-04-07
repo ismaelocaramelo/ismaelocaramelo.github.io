@@ -1,0 +1,29 @@
+---
+layout: post
+title: "BidUp!"
+date: 2016-10-01
+categories:
+description:
+image: http://imgur.com/TsVy2lZ.png
+image-sm: http://imgur.com/TsVy2lZ.png
+image-home: https://images.unsplash.com/photo-1470762920880-a8e058686707?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=7ad04dcd45407f39e32f62424b192b86
+---
+
+BidUp is a charity auction site which allows individuals and business to post lots in an effort to raise money for their favourite charities.
+
+![alt text](http://imgur.com/tJbeihh.png "BidUp Homepage")
+
+<br/>
+**The Idea**
+
+My final project at WDI. The idea for the app came from an observation that with the arrival of sites such as Just Giving, this whole process has become a lot easier. The internet is now the first port of call for anyone raising sponsorship money through running the marathon etc. Charity auctions are popular and effective ways to raise money at private events, ranging from political party conferences, to high-end events, to the local village fete. This brought me to my idea. Wouldn’t it be great to have a central site where individuals and businesses can post lots to raise money for their chosen charities? This would open up a new and effective way to raise money for charity (and a fun, interactive way for prominent organisations and people to give back a bit).
+
+<br/>
+**The Build**
+
+![alt text](http://imgur.com/HjuMTDk.png "Profile Page")
+The site was built using a PostgreSQL database on a Ruby on the Rails Backend, with Angular on the Frontend and Bootstrap for CSS. The site is fully mobile responsive. I used the Whenever Gem to schedule regular checks of the database and update the statuses of the auctions on a minute by minute basis. I also integrated the JustGiving API to provide rich data on charities and make the UX for setting up a lot far more seamless.  This was my first project using Rails, having stuck to the MEAN stack in previous projects. Using this new framework was a hugely enjoyable and educational process. Though I still do like the MEAN stack a lot, having got a decent understanding of associations, the speed  and legibility of Rails means I’ll definitely be looking to use it in future projects.
+
+<br/>
+
+Read more about BidUp on [GitHub](https://github.com/delamorinierejh/wdi-project-4-frontend)

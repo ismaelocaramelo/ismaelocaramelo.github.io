@@ -1,66 +1,125 @@
 /**
-  * Reset some basic elements
-*/
+ * Base Variables
+ */
+$font-header: 'Raleway', cursive;
+$font-body: 'Roboto', sans-serif;
+$font-post: 'Roboto', sans-serif;
 
-* {
- box-sizing: border-box !important;
- margin: 0; }
+$color-alpha: #344055;
+$color-alpha--light: #DBE8FF;
 
-input,
-select,
-textarea,
-button {
- font-family: inherit;
- font-size: inherit;
- line-height: inherit;
-}
+$color-black: #141414;
+$color-grey: #F0f0f0;
+$color-white: #f5f5f5;
 
-
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
-}
-
+$mq-xs: 20em;
+$mq-sm: 30em;
+$mq-md: 54em;
+$mq-lg: 64em;
+$mq-xl: 76.5em;
+$mq-xxl: 114em;
 
 /**
- * Basic styling
+ * Base Settings/Overwrite Normalize
  */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
-    font-family: $body-font-family;
-    font-size: $body-font-size;
-    line-height: 1.5;
-    color: $color-body-text;
-    background-color: $color-background;
+  font-family: $font-body;
+  font-feature-settings: 'liga' 0;
+  font-size: 100%;
+  line-height: 1.6;
+
+  @media (min-width: $mq-xs) {
+    font-size: 85%;
+  }
+
+  @media (min-width: $mq-sm) {
+    font-size: 105%;
+  }
+
+  @media (min-width: $mq-md) {
+    font-size: 107.5%;
+  }
+
+  @media (min-width: $mq-lg) {
+    font-size: 110%;
+  }
+
+  @media (min-width: $mq-xl) {
+    font-size: 115%;
+  }
+
+  @media (min-width: $mq-xxl) {
+    font-size: 125%;
+  }
+}
+
+h1, h2, h3 {
+  margin: 0;
+
+  font-family: $font-header;
+}
+
+h3 {
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+
+h1 {
+  $fontSize: 1.6em;
+  font-weight: 300;
+
+  @media (min-width: $mq-md) {
+    font-size: $fontSize;
+  }
+
+  @media (min-width: $mq-xl) {
+    font-size: $fontSize + 0.5em;
+  }
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 0.5em;
+  margin: 0 0 0.75em;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 1em;
-  margin-bottom: 0.25em;
-}
-
-h1, .h1 { font-size: $h1-size; }
-h2, .h2 { font-size: $h2-size; }
-h3, .h3 { font-size: $h3-size; }
-h4, .h4 { font-size: $h4-size; }
-h5, .h5 { font-size: $h5-size; }
-h6, .h6 { font-size: $h6-size; text-transform: uppercase; letter-spacing: 0.02em; }
 
 a {
-  color: inherit;
+  color: $color-black;
   text-decoration: none;
-  padding-bottom: 1px;
-  border-bottom: 1px solid currentColor;
+  transition: color 0.4s ease-in-out;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $color-alpha;
+  }
 }
 
-a:hover {
-  color: $color-primary-link;
-  text-decoration: none;
-  border-bottom: 1px dotted;
+figure {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+/**
+ * Text Selection
+ */
+::selection {
+  color: $color-white;
+  background-color: $color-alpha;
+  text-shadow: none;
 }

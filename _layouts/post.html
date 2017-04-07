@@ -1,22 +1,60 @@
 ---
 layout: default
 ---
+<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 
-<article class="container mx-auto px-2" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="mt-4 mb-2 clearfix header-text">
-    <h1 class="h0 inline-block py-2 mt-4 header-title">{{ page.title }}</h1>
-    <div class="clearfix mb-4 py-1">
-      <p class="h4 lh-condensed"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
-      <div class="col-1 sm-width-full border-top-thick">
+  <header class="section-padding--lg mast">
+    <a class="nav nav--white" href="{{ site.baseurl }}/">
+      <i class="fa fa-lg fa-arrow-left"></i>
+      <span>Back to Projects</span>
+    </a>
+    <figure class="absolute-bg mast__img" style="background-image: url('{{ page.image }}');"></figure>
+    <div class="mast__container">
+      <!-- <span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span> -->
+      <h1 itemprop="name headline">{{ page.title }}</h1>
+      {% if page.categories.size > 0 %}
+        <!-- <span>
+          Posted in {{ page.categories | join: ', ' }}
+        </span> -->
+      {% endif %}
+      <span></span>
+    </div>
+  </header>
+
+  <section class="section-padding post" itemprop="articleBody">
+    {{ content }}
+  </section>
+
+  <section class="profile">
+    <div class="profile__card">
+      <div class="profile__img">
+        <figure class="absolute-bg" style="background-image: url('{{ site.profile_img }}');"></figure>
+      </div>
+      <div class="profile__container">
+        <p>{{ site.profile }}</p>
+        {% if site.email or site.social %}
+          <ul class="profile__social">
+            {% if site.email %}
+              <li><a class="fa fa-lg fa-envelope-o" href="mailto:{{ site.email }}"></a></li>
+            {% endif %}
+            {% for social in site.social %}
+              <li><a class="fa fa-lg fa-{{ social[0] }}" href="{{ social[1] }}" target="_blank"></a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="prose py-4" itemprop="articleBody">
-      {{ content }}
-  </div>
 </article>
 
-<div class="container mx-auto px-2 py-2 clearfix">
-  {% include previous-next.html %}
-</div>
+{% if page.previous.url %}
+  <section class="next">
+    <a class="next__link" href="{{page.previous.url | prepend: site.baseurl }}" style="background-image: url('{{ page.previous.image }}');">
+      <div class="next__container">
+        <span>Next Project</span>
+        <h2>{{page.previous.title}}</h2>
+      </div>
+    </a>
+  </section>
+{% endif %}

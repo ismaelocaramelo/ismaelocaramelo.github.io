@@ -1,34 +1,36 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Ismael Bakkali Chairi
-email: ismaelbacha@hotmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
-github_username:  ismaelocaramelo
+email: "delamorinierejh@gmail.com"
+baseurl: ""
+paginate: 5
+paginate_path: "/blog/page-:num"
+google_analytics:
+
+# SEO settings
+title: Johnnie de La Morinière
+description:
+url: ""
+twitter_username: "@delamorinierejh"
+default_img:
+home_img: "https://images.unsplash.com/photo-1472341581053-2af63cb175d4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=8ddab9b3ae5407027aa2da624f71282c"
+
+# Profile settings
+name: Johnnie de La Morinière
+profile_img: "https://pbs.twimg.com/profile_images/780714859700883456/E1vI9fK6.jpg"
+profile: I'm a London-based Full Stack Developer, with a background in E-Commerce strategy and Corporate Communications.
+social:
+  twitter: "https://www.twitter.com/delamorinierejh"
+  github: "https://www.github.com/delamorinierejh"
+  linkedin: "https://www.linkedin.com/in/johnnie-de-la-moriniere-ba610b66"
 
 # Build settings
+include: ["_categories"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
 markdown: kramdown
-theme: jekyll-athena
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
