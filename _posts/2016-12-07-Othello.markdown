@@ -16,7 +16,7 @@ This is my first project from my WDI course at General Assembly
 
 My first project
 
-For my first project I decided to build a Japanese strategy game called Othello or also known as reversi (below link for rules).
+For my first project I decided to build a Japanese strategy game called Othello or also known as **Reversi** (below link for rules).
 
 The decision to play this game is one of the games I used to play with my family. I've planned what to do each day in order to meet the deadline. The first and second day were focused on the analysis and pseudo-code of the game. The third and fourth days were dedicated exclusively to the code. At the end of the javaScript and HTML part I started to style it using CSS.
 

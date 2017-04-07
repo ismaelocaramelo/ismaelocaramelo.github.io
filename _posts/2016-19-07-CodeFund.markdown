@@ -1,0 +1,46 @@
+---
+layout: post
+title: "SWISHList"
+date: 2016-09-07
+categories:
+description:
+image: http://i.imgur.com/nagZgBv.png
+image-sm: http://i.imgur.com/nagZgBv.png
+image-home: https://images.unsplash.com/photo-1470762920880-a8e058686707?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=7ad04dcd45407f39e32f62424b192b86
+---
+
+## Overview
+This group project was inspired by our experience in the tech world. We wanted to create a space for asking coding-related questions to fellow web developers. However, it was important to us that the app was more than just a question and answer forum, and the idea was very much rooted in the idea of charitable donations being rewarded to successful answers. This is because my teammates and I wanted to explore how to use tech for good; how to contribute in a small way whilst still providing a service.
+
+
+The site can be viewed here: [https://codefund.herokuapp.com/](https://codefund.herokuapp.com/)
+
+##Codefund
+
+This is my third project for the Web Development Immersive boot camp at General Assembly. This was a group project.
+
+
+##Code Fund - Group Project MEAN Stack App
+
+A group project inspired by Stack Overflow, incorporating a charity element. Users can sign up choosing a charity via the integrated JustGiving API and ask programming questions. Other users can post answers in response to the question and the poster of the question then donates the set bounty to their answerers chosen charity.
+
+##Technology
+
+It was built using an Express/Node Backend accessing a MongoDB, with Angular on the Frontend. I was in charge of building the Back end which I really enjoy, including design the structure and the models. Seeding data using a waterfall package and taking into account the relations between the models was challenging.
+
+
+##Approach to the build of Code Fund:
+
+The app was built over the course of 4 days with a team of 5, this consisted of planning, collaboration and delegation of tasks. We used Balsamiq for wireframes, Trello for organisation and the delegation of tasks and git for version and collaboration control. We also often pair programmed on more complicated tasks and brainstormed as a team for branding/design ideas.
+
+![alt text](http://i.imgur.com/YVF6yE3.png "Trello")
+
+![alt text](http://i.imgur.com/uHk6mqt.png "Development")
+
+![alt text](http://i.imgur.com/uSSwLbf.png "Languages")
+
+![alt text](http://i.imgur.com/7PJPjBe.png "Questions")
+
+![alt text](http://i.imgur.com/TyboN8j.png "Question")
+
+![alt text](http://i.imgur.com/w6f9C7K.png "Correct Answer")
