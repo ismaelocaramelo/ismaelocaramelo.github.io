@@ -97,6 +97,10 @@ It will be done online using the balsamic app once the user's flow is reviewed.
 
 
 
-Read more about Cook And Share on [GitHub](https://profiles.generalassemb.ly/profiles/ismael-bakkali)
+Read more about Cook And Share on <a href="https://profiles.generalassemb.ly/profiles/ismael-bakkali" target="_blank">**More about**</a>
 
-App: https://wdi-project-4-ismael-client.herokuapp.com/#registerModal
+Full Development:
+<a href=" https://github.com/ismaelocaramelo/WDI-PROJECT-4-CLIENT" target="_blank">**Full Development**</a>
+
+Cook And Share:
+<a href="https://wdi-project-4-ismael-client.herokuapp.com/#registerModal" target="_blank">**Cook And Share**</a>
