@@ -10,7 +10,7 @@ image-home: https://images.unsplash.com/photo-1470762920880-a8e058686707?ixlib=r
 ---
 **Green Charge Spots** This application was produced as my third project for the Web Development Immersive course at General Assembly London. It was built using HTML5, CSS3 and JavaScript/jQuery.
 
-The game can be played here: <a href=" https://green-charge-vehicle.herokuapp.com/" target="_blank">**Green Charge Spots**</a>
+The game can be played here: <a [https://green-charge-vehicle.herokuapp.com/](https://green-charge-vehicle.herokuapp.com/)
 
 **Development**
 
@@ -22,25 +22,25 @@ This application was produced as my third project for the Web Development Immers
 
 The decision to make this website was serve as a charging point platform. In addition to the charge point map, Green Charge Spots provides supporting information on charging and electric vehicles to help current or prospective EV drivers to make more informed choices and enjoy their electric motoring experience.
 
-###Charge Point Database
+**Charge Point Database**
 
 Green Charge Spots aggregates data from various sources to provide the most comprehensive source of UK charge points – there are currently more than 4000 public charging locations mapped on the my database.
 
-###Favourite Spots
+**Favourite Spots**
 
 Green Charge Spots facilitates a user friendly favourite icon to store his preferred choices and access them in a simple interface. Click on specific England charging points to see more info about address, number, type and to which network each charging point belongs.
 
-###Planning
+**Planning**
 
-Wireframing
+**Wireframing**
 
 I used the tool Balsamiq to wireframe the general appearance of the main parts of the app - namely the set up process and the map itself (complete with sidebar).
 
-Backend
+**Backend**
 
 It was built using Node.js and MongoDB.
 
-Features:
+**Features:**
 
 Regular Expression, there is no such thing as comprehensive UK postcode regular expression that is capable of validating a postcode. Postcodes are arbitrarily complex and constantly changing. For instance, the outcode W1 does not, and may never, have every number between 1 and 99, for every postcode area.
 
@@ -52,7 +52,7 @@ I used the government API and Google Maps API to build a database of uniform dat
 
 MongoDB security which I found it has has the robust security capabilities that one would expect from a modern database.
 
-Frontend
+**Frontend**
 
 jQuery, HTML and Bootstrap.
 
@@ -90,7 +90,7 @@ It's also object oriented.
 
 ![alt text](http://i.imgur.com/OgBsX8I.png "Favourite spots")
 
-###Future implementations
+**Future implementations**
 
 Charging info resource:
 

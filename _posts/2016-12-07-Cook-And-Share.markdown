@@ -9,12 +9,7 @@ image-sm: http://i.imgur.com/VqGV3Qd.png
 image-home: https://images.unsplash.com/photo-1470762920880-a8e058686707?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=7ad04dcd45407f39e32f62424b192b86
 ---
 
-
-
-
-#App functionality
-
-------------------------------
+**App functionality**
 
 **Scope**
 ____________________________
@@ -61,7 +56,6 @@ CALENDAR ICON => display the calendar with the plates or beverages in desc orden
 Once the user click on a plate is redirect to the plate modal which has all the info about the plate/beverage, meeting point and nutritional info, price of portion and price for the whole plate or beverage. Coming also with same count down, any user's left if any and trolley button.
 
 
-
 **Balsamic frameworks**
 
 It will be done online using the balsamic app once the user's flow is reviewed.
@@ -93,8 +87,6 @@ It will be done online using the balsamic app once the user's flow is reviewed.
 ![alt text](http://i.imgur.com/6flsL1j.png "Order Quantity")
 
 ![alt text](http://i.imgur.com/hvDaBNP.png "Meal Requests")
-
-
 
 
 Read more about Cook And Share on
