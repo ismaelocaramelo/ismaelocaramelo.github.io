@@ -10,7 +10,7 @@ image-home: https://images.unsplash.com/photo-1470762920880-a8e058686707?ixlib=r
 ---
 **Green Charge Spots** This application was produced as my third project for the Web Development Immersive course at General Assembly London. It was built using HTML5, CSS3 and JavaScript/jQuery.
 
-The app can be played here: <a [https://green-charge-vehicle.herokuapp.com/](https://green-charge-vehicle.herokuapp.com/)
+The app can be played here: [https://green-charge-vehicle.herokuapp.com/](https://green-charge-vehicle.herokuapp.com/)
 
 **Development**
 
